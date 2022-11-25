@@ -12,7 +12,7 @@ The console is the first segment of the AirBnB project at Holberton School that 
 <li>Destroy an object</li>
 
 # Table of Content
-<li>Environment</li>
+<li><a href ="">Environment</a></li>
 <li>Installation</li>
 <li>File Descriptions</li>
 <li>Usage</li>
@@ -66,15 +66,42 @@ def to_dict(self) - returns a dictionary containing all keys/values of the insta
 
 Classes inherited from Base  Model:
 <ul>
-<li>user.py</li>
+<li>
+<a href ="">user.py</a></li >
 <li>state.py</li>
 <li>city.py</li>
 <li>place.py</li>
 </ul>
 
+models/engine <strong>directory contains File Storage class that handles JASON serialization and deserialization :</strong>
+
+<a href ="">file_storage.py</a>- serializes instances to a JSON file & deserializes back to instances
+def all(self) - returns the dictionary __objects
+
+def new(self, obj) - sets in __objects the obj with key .id
+
+def save(self) - serializes __objects to the JSON file (path: __file_path)
+
+def reload(self) - deserializes the JSON file to __objects
+# /tests <h6>directory contains all unit test cases for this project:</h6>
+<ul>
+<a href ="">/test_models/test_base_model.py</a>-
+Contains the TestBaseModel and TestBaseModelDocs classes TestBaseModelDocs class:
+<ul>
+<li>def setUpClass(cls)- Set up for the doc tests</li>
+<li>def test_pep8_conformance_base_model(self) - Test that models/base_model.py conforms to PEP8</li>
+<li>def test_pep8_conformance_test_base_model(self) - Test that tests/test_models/test_base_model.py conforms to PEP8</li>
+
+<li>def test_bm_module_docstring(self) - Test for the base_model.py module docstring</li>
+<li>def test_bm_class_docstring(self) - Test for the BaseModel class docstring</li>
+
+<li>def test_bm_func_docstrings(self) - Test for the presence of docstrings in BaseModel methods</li>
+
 # Examples of use
+
 vagrantAirBnB_clone$./console.py
 (hbnb) help
+
 Documented commands (type help <topic>):
 ========================================
 EOF  all  create  destroy  help  quit  show  update
@@ -96,7 +123,7 @@ EOF  all  create  destroy  help  quit  show  update
 No known bugs at this time.
 
 # Authors
-Brigg-commit - <Github>
+Brigg-commit - <a href ="">Github</a>
 
 # License
 Public Domain. No copy write  protection
