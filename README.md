@@ -1,4 +1,4 @@
-# Welcome to the AirBnB clone project -The Console
+# AirBnB clone project -The Console
 
 The console is the first segment of the AirBnB project at Holberton School that will collectively cover fundamental concepts of higher level programming. The goal of AirBnB project is to eventually deploy our server a simple copy of the AirBnB Website(HBnB). A command interpreter is created in this segment to manage objects for the AirBnB(HBnB) website.
 
@@ -19,14 +19,14 @@ The console is the first segment of the AirBnB project at Holberton School that 
 <li>Samples of use
 <li>Bugs</li></li>
 <li>Authors</li>
-<li> License</li>
+<li>License</li>
 
 # Environment
 This project is interpreted/tested on Ubuntu 14.04 LTS using python3 (version 3.4.3)
 
 # Installation
 
-<li>Clone this repository: git clone "https://github.com/MIC11A3L/AirBnB_clone.git"<\li>
+<li>Clone this repository: git clone "https://github.com/MIC11A3L/AirBnB_clone.git"</li>
 <li>Access AirBnb directory: cd AirBnB_clone</li>
 <li>Run hbnb(interactively): ./console and enter command</li>
 
@@ -71,10 +71,10 @@ Classes inherited from Base  Model:
 <li>city.py</li>
 <li>place.py</li>
 </ul>
+
 # Examples of use
 vagrantAirBnB_clone$./console.py
 (hbnb) help
-
 Documented commands (type help <topic>):
 ========================================
 EOF  all  create  destroy  help  quit  show  update
@@ -96,7 +96,7 @@ EOF  all  create  destroy  help  quit  show  update
 No known bugs at this time.
 
 # Authors
-Brigg-commit - Gitthub
+Brigg-commit - <Github>
 
 # License
-Public Domain. No copy write pprotectioo
+Public Domain. No copy write  protection
