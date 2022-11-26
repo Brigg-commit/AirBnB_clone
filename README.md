@@ -83,7 +83,7 @@ def new(self, obj) - sets in __objects the obj with key .id
 def save(self) - serializes __objects to the JSON file (path: __file_path)
 
 def reload(self) - deserializes the JSON file to __objects
-# /tests <h6>directory contains all unit test cases for this project:</h6>
+# /tests directory contains all unit test cases for this project:
 <ul>
 <a href ="">/test_models/test_base_model.py</a>-
 Contains the TestBaseModel and TestBaseModelDocs classes TestBaseModelDocs class:
