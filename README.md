@@ -1,3 +1,5 @@
+https://camo.githubusercontent.com/e33e3c1a12823f43adb164a0986d1d3a1a401e732dedfd676dbc6bf60add906e/68747470733a2f2f7365637572652e6d65657475707374617469632e636f6d2f70686f746f732f6576656e742f622f632f352f362f686967687265735f3437353534383231342e6a706567
+
 # AirBnB clone project -The Console
 
 The console is the first segment of the AirBnB project at Holberton School that will collectively cover fundamental concepts of higher level programming. The goal of AirBnB project is to eventually deploy our server a simple copy of the AirBnB Website(HBnB). A command interpreter is created in this segment to manage objects for the AirBnB(HBnB) website.
@@ -12,7 +14,7 @@ The console is the first segment of the AirBnB project at Holberton School that 
 <li>Destroy an object</li>
 
 # Table of Content
-<li><a href ="Environment.html">Environment</a></li>
+<li>Element</li>
 <li>Installation</li>
 <li>File Descriptions</li>
 <li>Usage</li>
@@ -26,7 +28,7 @@ This project is interpreted/tested on Ubuntu 14.04 LTS using python3 (version 3.
 
 # Installation
 
-<li>Clone this repository: git clone "https://github.com/MIC11A3L/AirBnB_clone.git"</li>
+<li>Clone this repository: git clone "https://github.com/Brigg-commit/AirBnB_clone.git"</li>
 <li>Access AirBnb directory: cd AirBnB_clone</li>
 <li>Run hbnb(interactively): ./console and enter command</li>
 
@@ -123,7 +125,7 @@ EOF  all  create  destroy  help  quit  show  update
 No known bugs at this time.
 
 # Authors
-Brigg-commit - <a href ="">Github</a>
+Brigg-commit - <a href ="github.com/Brigg-commit">Github</a>
 
 # License
 Public Domain. No copy write  protection
