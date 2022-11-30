@@ -12,7 +12,7 @@ The console is the first segment of the AirBnB project at Holberton School that 
 <li>Destroy an object</li>
 
 # Table of Content
-<li><a href ="">Environment</a></li>
+<li><a href ="Environment.html">Environment</a></li>
 <li>Installation</li>
 <li>File Descriptions</li>
 <li>Usage</li>
@@ -35,7 +35,7 @@ This project is interpreted/tested on Ubuntu 14.04 LTS using python3 (version 3.
 
 
 # File Descriptions
-<a href ="">console.py </a>- the console contains the entry point of the command interpreter. List of commands this console current supports:
+<a href ="AirBnB_clone/console.html">console.py </a>- the console contains the entry point of the command interpreter. List of commands this console current supports:
 
 EOF - exits console
 
