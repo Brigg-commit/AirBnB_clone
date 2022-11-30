@@ -35,7 +35,7 @@ This project is interpreted/tested on Ubuntu 14.04 LTS using python3 (version 3.
 
 
 # File Descriptions
-<a href ="AirBnB_clone/console.html">console.py </a>- the console contains the entry point of the command interpreter. List of commands this console current supports:
+<a href ="AirBnB_clone/console.py">console.py </a>- the console contains the entry point of the command interpreter. List of commands this console current supports:
 
 EOF - exits console
 
@@ -54,7 +54,7 @@ all - Prints all string representation of all instances based or not on the clas
 update - Updates an instance based on the class name and id by adding or updating attribute (save the change into the JSON file).
 
 # models/ directory contains classes used for this project:
-<a href ="">base_model.py</a> - The BaseModel class from which future classes will be derived.
+<a href ="AirBnB_clone_v3/models/base_model.py">base_model.py</a> - The BaseModel class from which future classes will be derived.
 
 def __init__(self, *args, **kwargs) - Initialization of the base model
 
@@ -67,7 +67,7 @@ def to_dict(self) - returns a dictionary containing all keys/values of the insta
 Classes inherited from Base  Model:
 <ul>
 <li>
-<a href ="">user.py</a></li >
+<a href ="AirBnB_clone_v3/models/user.py">user.py</a></li>
 <li>state.py</li>
 <li>city.py</li>
 <li>place.py</li>
@@ -75,7 +75,7 @@ Classes inherited from Base  Model:
 
 models/engine <strong>directory contains File Storage class that handles JASON serialization and deserialization :</strong>
 
-<a href ="">file_storage.py</a>- serializes instances to a JSON file & deserializes back to instances
+<a href ="AirBnB_clone_v3/models/engine/file_storage.py">file_storage.py</a>- serializes instances to a JSON file & deserializes back to instances
 def all(self) - returns the dictionary __objects
 
 def new(self, obj) - sets in __objects the obj with key .id
@@ -85,12 +85,12 @@ def save(self) - serializes __objects to the JSON file (path: __file_path)
 def reload(self) - deserializes the JSON file to __objects
 # /tests directory contains all unit test cases for this project:
 <ul>
-<a href ="">/test_models/test_base_model.py</a>-
+<a href ="AirBnB_clone/test_models/test_base_model.py">/test_models/test_base_model.py</a>-
 Contains the TestBaseModel and TestBaseModelDocs classes TestBaseModelDocs class:
 <ul>
 <li>def setUpClass(cls)- Set up for the doc tests</li>
 <li>def test_pep8_conformance_base_model(self) - Test that models/base_model.py conforms to PEP8</li>
-<li>def test_pep8_conformance_test_base_model(self) - Test that tests/test_models/test_base_model.py conforms to PEP8</li>
+<li>def test_pep8_conformance_test_base_model(self) - Test that tests/test_modeels/test_base_model.py conforms to PEP8</li>
 
 <li>def test_bm_module_docstring(self) - Test for the base_model.py module docstring</li>
 <li>def test_bm_class_docstring(self) - Test for the BaseModel class docstring</li>
